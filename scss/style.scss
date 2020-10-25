@@ -1,0 +1,71 @@
+$primary:#40817F;
+$primary-overlay: rgba(64, 129, 127, 0.8);
+$bg-color: #fff;
+body {
+    padding-top: 80px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background-color: $bg-color;
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}
+
+// Show Case Design
+#showcase {
+    position: relative;
+    background: url('../img/mizuxe/mountains.jpg') no-repeat center center/cover;
+    min-height: 600px;
+    .primary-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    #showcase {
+        min-height: 500px;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    // Showletter design
+    .mb-resp {
+        margin: 1rem 0;
+    }
+}
+
+// About / Why Section
+.info-header {
+    margin: auto;
+    width: 50%;
+    border-bottom: solid #ddd 1px;
+}
+
+// Authors Section
+#authors {
+    img {
+        margin-top: -50px;
+    }
+    .card:hover {
+        background-color: $primary;
+        color: #fff;
+        .fab {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .ls-resp {
+        margin: 1rem 0;
+    }
+}
