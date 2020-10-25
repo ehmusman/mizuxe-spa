@@ -1,0 +1,49 @@
+body {
+  padding-top: 80px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #40817F;
+  opacity: 0.9;
+  background-color: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url("../img/mizuxe/mountains.jpg") no-repeat center center/cover;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(64, 129, 127, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3rem; }
+
+  .mb-resp {
+    margin: 1rem 0; } }
+.info-header {
+  margin: auto;
+  width: 50%;
+  border-bottom: solid #ddd 1px; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background-color: #40817F;
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+
+@media (max-width: 991px) {
+  .ls-resp {
+    margin: 1rem 0; } }
+
+/*# sourceMappingURL=style.css.map */
